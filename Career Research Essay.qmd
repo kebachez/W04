@@ -193,13 +193,13 @@ Overall, this course provides valuable hands-on experience that prepares student
 
 Replace this with your GitHub repository URL after pushing your project.
 
-`https://github.com/YourGitHubUsername/W04-Career_Research`
+`https://github.com/kebachez/W04.git`
 
 ## GitHub Pages
 
 Replace this with your GitHub Pages URL after publishing your website.
 
-`https://YourGitHubUsername.github.io/W04-Career_Research/`
+`https://kebachez.github.io/W04/`
 
 ## Job Posting Links
 
