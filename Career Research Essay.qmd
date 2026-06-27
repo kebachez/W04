@@ -1,0 +1,213 @@
+---
+title: "Career Research Essay: Preparing for Careers in Omnichannel Retailing and E-Commerce"
+author: "Kevin Bachez"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: cosmo
+    code-fold: true
+    code-tools: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(gt)
+library(dplyr)
+```
+
+# Career Research Essay
+
+::: callout-note
+## Purpose of This Essay
+
+This essay explores careers in omnichannel retailing by analyzing three real job postings, identifying common skills employers seek, and explaining how the Retailing in the Digital Economy course and the Master of Science in Digital Marketing and Analytics (MSDM) program prepare students for these careers.
+:::
+
+# Introduction
+
+> *"Omnichannel retailing integrates physical stores, e-commerce websites, mobile applications, digital marketing, customer service, fulfillment, and analytics into one seamless shopping experience."*
+
+Retailing has changed dramatically over the past decade. Instead of relying only on physical stores, retailers now interact with customers through websites, mobile apps, social media, online marketplaces, email marketing, and in-store technology. Consumers expect a consistent shopping experience regardless of how they interact with a retailer. This business strategy is known as **omnichannel retailing**, and it has become one of the most important areas of modern marketing and retail management.
+
+As omnichannel retailing has grown, so have career opportunities. Today's retail professionals are responsible for much more than selling products in stores. Many careers now involve managing online product catalogs, maintaining Shopify stores, analyzing customer behavior using Google Analytics 4, coordinating digital advertising campaigns, supporting inventory systems, improving customer experiences, and using data to make business decisions. Companies increasingly seek employees who understand both marketing principles and digital technologies.
+
+For this essay, I researched three current job postings related to omnichannel retailing and e-commerce: 1. Ecommerce Coordinator 2. E-Commerce Marketing Specialist 3. Omni-Channel Coordinator
+
+These positions represent different aspects of omnichannel retailing while sharing many common responsibilities and technical skills. By comparing these postings, I identified the knowledge, software, and professional skills employers consistently seek. I also explain how this course and the Master of Science in Digital Marketing and Analytics (MSDM) program at California State Polytechnic University, Pomona help prepare students for these career opportunities.
+
+# Summary of Job Postings
+
+## Job Posting 1 – Ecommerce Coordinator
+
+**Company:** Anastasia Beverly Hills
+
+**Source:** LinkedIn
+
+The Ecommerce Coordinator position focuses on supporting the company's online business operations. Responsibilities include maintaining ecommerce content, coordinating promotions, monitoring website performance, supporting customer relationship management (CRM) activities, assisting with merchandising initiatives, and collaborating with marketing, operations, and technology teams.
+
+Preferred qualifications include experience with ecommerce platforms, Microsoft Excel, project coordination, communication skills, attention to detail, and the ability to manage multiple projects simultaneously. The position also values analytical thinking and collaboration across departments.
+
+------------------------------------------------------------------------
+
+## Job Posting 2 – E-Commerce Marketing Specialist
+
+**Company:** Yellow Box Corporation
+
+**Source:** Company Careers
+
+The E-Commerce Marketing Specialist position combines digital marketing with ecommerce management. Responsibilities include maintaining Shopify product pages, optimizing product listings for search engines, supporting email marketing campaigns, improving website content, monitoring online sales performance, and assisting with digital advertising initiatives.
+
+The employer seeks candidates with knowledge of Shopify, SEO, Google Analytics, Excel, digital marketing, ecommerce merchandising, and website management. Strong written communication and organizational skills are also emphasized.
+
+------------------------------------------------------------------------
+
+## Job Posting 3 – Omni-Channel Coordinator
+
+**Company:** Samyang America
+
+**Source:** Company Careers
+
+The Omni-Channel Coordinator position focuses on connecting inventory, product information, customer experience, and online retail operations across multiple sales channels. Responsibilities include coordinating product catalog updates, maintaining inventory accuracy, supporting online marketplaces, working with fulfillment teams, and assisting with omnichannel retail strategy.
+
+Preferred qualifications include experience with ecommerce operations, inventory management, Microsoft Excel, communication skills, project coordination, and cross-functional teamwork. The company also values individuals who can analyze business data and improve operational efficiency.
+
+# Comparison of Job Requirements
+
+Table @tbl-skills summarizes the common skills and technologies identified across the three job postings.
+
+```{r}
+#| label: tbl-skills
+#| tbl-cap: "Comparison of Skills Across Three Job Postings"
+
+skills <- data.frame(
+  Skill = c(
+    "Microsoft Excel",
+    "Communication",
+    "Project Coordination",
+    "Shopify",
+    "Google Analytics",
+    "Inventory Management",
+    "Customer Experience",
+    "Digital Marketing",
+    "SEO",
+    "Product Catalog Management"
+  ),
+  `Anastasia Beverly Hills` = c("✓","✓","✓","","","✓","✓","","","✓"),
+  `Yellow Box` = c("✓","✓","✓","✓","✓","","✓","✓","✓","✓"),
+  `Samyang America` = c("✓","✓","✓","","","✓","✓","✓","","✓")
+)
+
+gt(skills)
+```
+
+As shown in Table @tbl-skills, employers consistently seek candidates who possess a combination of technical knowledge and professional communication skills.
+
+# Skills and Knowledge Required
+
+After reviewing the three job postings, several common themes emerged regarding the qualifications employers seek for careers in omnichannel retailing and e-commerce. Although each position has different responsibilities, they all require a combination of technical expertise, analytical thinking, communication, and project management skills.
+
+One of the most frequently requested technical skills is proficiency with **Microsoft Excel**. Each employer expects candidates to organize data, create reports, monitor inventory, analyze sales performance, or support business decisions using spreadsheets. This demonstrates that Excel remains one of the most important software tools in retail analytics and e-commerce operations.
+
+Another recurring requirement is familiarity with **e-commerce platforms** such as Shopify and online marketplace management systems. Employers expect employees to maintain product listings, update pricing, organize collections, optimize product pages, and ensure accurate product information. These responsibilities directly influence the customer experience because inaccurate product information or poorly organized websites can reduce customer satisfaction and sales.
+
+The postings also emphasize the importance of **Google Analytics** and digital performance measurement. Employers increasingly rely on data to understand customer behavior, evaluate marketing campaigns, monitor website traffic, and improve conversion rates. Candidates who understand web analytics can help organizations make data-driven decisions rather than relying solely on intuition.
+
+Inventory management also appeared throughout the job descriptions. Modern retailers must synchronize inventory across warehouses, physical stores, websites, and online marketplaces. Employees who understand inventory accuracy, fulfillment, and omnichannel operations help ensure customers receive products quickly and accurately regardless of where they shop.
+
+In addition to technical knowledge, employers consistently emphasized several soft skills. Communication was one of the most frequently mentioned qualifications because omnichannel retailing requires collaboration among marketing teams, merchandising departments, warehouse operations, customer service representatives, technology specialists, and management. Employees must communicate clearly while working across multiple departments and managing several projects simultaneously.
+
+Problem-solving, adaptability, organization, attention to detail, and time management were also common themes. Because online retail environments change rapidly, employees must respond quickly to inventory issues, marketing campaigns, website updates, and customer needs. Employers therefore seek professionals who can balance multiple responsibilities while maintaining high levels of accuracy.
+ 
+ ::: {.callout-important}
+## Key Finding
+
+Across all three job postings, employers consistently seek professionals who combine technical skills—including Shopify, Excel, Google Analytics, product catalog management, and digital marketing—with strong communication, teamwork, analytical thinking, and organizational abilities. Successful omnichannel retail professionals must understand both technology and customer experience.
+:::
+
+# Connection to This Course and the MSDM Program
+
+The Retailing in the Digital Economy course provides practical learning experiences that closely align with the qualifications identified in these job postings. Throughout this course, students develop a practice Shopify store, organize product catalogs, create product listings, write product descriptions, manage collections, and analyze the customer journey. These assignments closely resemble the daily responsibilities described by employers.
+
+Another valuable component of this course is **Google Analytics 4 (GA4)**. Learning how customer interactions are measured helps students understand website traffic, customer engagement, purchasing behavior, and marketing performance. Employers increasingly expect entry-level employees to understand digital analytics because organizations rely heavily on data when making business decisions.
+
+The course also introduces students to **Google Merchant Center** and **Google Shopping Ads**. These tools help businesses manage product feeds and advertise products across Google's platforms. Understanding these technologies gives students practical knowledge that directly applies to careers in e-commerce marketing and digital merchandising.
+
+Product catalog management is another important area emphasized throughout the course. Students learn how product titles, descriptions, categories, images, pricing, and collections influence customer experience and purchasing decisions. Employers consistently seek candidates who understand how organized product information improves online shopping performance.
+
+The **CPP Farm Store consulting project** further strengthens career preparation by allowing students to apply retail strategy concepts in a real-world setting. Through this project, students evaluate merchandising decisions, customer experience, and omnichannel retail opportunities while developing professional consulting skills.
+
+Beyond this course, the Master of Science in Digital Marketing and Analytics (MSDM) program provides additional preparation for careers in omnichannel retailing. Courses in Marketing Analytics develop data analysis and business intelligence skills that help students interpret customer behavior and measure business performance. Consumer Behavior courses explain why customers make purchasing decisions, allowing future marketers to design more effective retail experiences.
+
+Digital Marketing courses introduce concepts such as search engine optimization (SEO), paid advertising, email marketing, social media marketing, and campaign management. These skills complement the technical knowledge developed in this retail course by helping students understand how customers are acquired and retained across multiple digital channels.
+
+Additional coursework in Data Visualization teaches students how to communicate business insights through dashboards and reports using tools such as R, Tableau, or Looker Studio. Employers increasingly expect marketing professionals to present complex information clearly so that managers can make informed decisions.
+
+Business Communication and consulting projects throughout the MSDM program further prepare students to collaborate with clients, present recommendations professionally, and work effectively within cross-functional teams. Together, these courses provide a well-rounded educational foundation that prepares graduates for careers in e-commerce, retail marketing, merchandising, customer experience, and retail analytics.
+
+[^1]: Omnichannel retailing emphasizes creating a seamless customer experience across online and offline channels rather than treating each channel independently.
+
+# Personal Career Reflection
+
+Among the three career paths that I researched, the **E-Commerce Marketing Specialist** position is the most appealing to me because it combines digital marketing, analytics, customer experience, and e-commerce strategy. These responsibilities closely align with both my academic interests and my long term career goals. I enjoy using data to improve marketing decisions while also developing creative strategies that enhance customer engagement and online shopping experiences.
+
+My current experience has already helped me build a strong foundation for this career path. I earned a Bachelor of Science in Business Administration from Biola University and am currently pursuing a Master of Science in Digital Marketing and Analytics at California State Polytechnic University, Pomona. Throughout my graduate program, I have completed projects involving retail analytics, Shopify store development, Google Analytics 4, data visualization, digital marketing strategy, and customer behavior analysis.
+
+In addition to my academic experience, I currently work as a **Field Sales and Marketing Representative** for Techtronic Industries (TTI). This role has strengthened my communication, relationship building, merchandising, and retail operations skills while allowing me to work directly with one of the largest home improvement retailers in the United States. My previous marketing internships also provided valuable experience creating digital content, managing social media campaigns, and supporting marketing initiatives for nonprofit organizations.
+
+Although I have developed many relevant skills, there are still areas where I would like to continue improving. I plan to strengthen my knowledge of advanced Google Analytics 4 reporting, SQL, Looker Studio, Shopify customization, Microsoft Excel, and paid digital advertising. Developing these technical skills will make me a stronger candidate for e-commerce and omnichannel marketing positions.
+
+Another important goal is to continue building a professional portfolio that demonstrates my abilities. Throughout the MSDM program, I have completed projects involving Shopify, R, Quarto, data analysis, marketing research, forecasting, and digital marketing strategy. Including these projects on my portfolio website and LinkedIn profile will provide employers with evidence of my technical and analytical skills beyond my resume.
+
+One specific action I plan to take this semester is to continue applying for internships and entry-level positions related to e-commerce, digital marketing, and retail analytics while expanding my portfolio with class projects. I also plan to earn additional certifications related to Google Analytics and digital marketing. These experiences will help prepare me for future opportunities in omnichannel retailing and support my long-term goal of building a successful career in digital marketing and analytics.
+
+# Conclusion
+
+Omnichannel retailing continues to reshape the retail industry by integrating physical stores, e-commerce platforms, digital marketing, inventory systems, fulfillment operations, and customer experience into a unified strategy. As organizations increasingly rely on technology and data, employers seek professionals who possess both technical expertise and strong communication skills.
+
+The three job postings analyzed in this essay demonstrate that employers consistently value knowledge of e-commerce platforms, Google Analytics, Microsoft Excel, digital marketing, project coordination, inventory management, and customer experience. These expectations closely align with the learning objectives of the Retailing in the Digital Economy course and the broader MSDM curriculum.
+
+Overall, this course provides valuable hands-on experience that prepares students for careers in omnichannel retailing, digital merchandising, retail marketing, customer experience, and retail analytics. By continuing to develop both technical and professional skills, students can become competitive candidates for a wide variety of careers in today's rapidly evolving retail industry.
+
+# References
+
+1. Anastasia Beverly Hills. *Ecommerce Coordinator*. LinkedIn Jobs. <https://www.linkedin.com/jobs/view/ecommerce-coordinator-at-anastasia-beverly-hills-4423184815> 
+
+2. Yellow Box Corporation. *E-Commerce Marketing Specialist*. Company Careers. <https://jobs.techstars.com/companies/yellowbox/jobs/82060505-e-commerce-marketing-specialist>
+
+3. Samyang America. *Omni-Channel Coordinator*. Company Careers. <https://builtin.com/job/omni-channel-coordinator/9555012>
+
+# Appendix
+
+## GitHub Repository
+
+Replace this with your GitHub repository URL after pushing your project.
+
+`https://github.com/YourGitHubUsername/W04-Career_Research`
+
+## GitHub Pages
+
+Replace this with your GitHub Pages URL after publishing your website.
+
+`https://YourGitHubUsername.github.io/W04-Career_Research/`
+
+## Job Posting Links
+
+- Anastasia Beverly Hills – Ecommerce Coordinator  
+  <https://www.linkedin.com/jobs/view/ecommerce-coordinator-at-anastasia-beverly-hills-4423184815>
+
+- Yellow Box Corporation – E-Commerce Marketing Specialist  
+  <https://jobs.techstars.com/companies/yellowbox/jobs/82060505-e-commerce-marketing-specialist>
+
+- Samyang America – Omni-Channel Coordinator  
+  <https://builtin.com/job/omni-channel-coordinator/9555012>
